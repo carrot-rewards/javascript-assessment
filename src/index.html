@@ -14,8 +14,29 @@
   </head>
   <body>
     <h1>Employee post's of the year</h1>
-    <main id="content"></main>
+    <main id="content">
+      <input id="user_id" type="text" name="id"/>
+      <button id="submit">submit</button>
 
-    <script src="/dist/main.js"></script>
+      <h3>Employee Details</h3>
+
+      <ul>
+        <li><p>Id: <p id="id"></p></p></li>
+        <li><p>Name: <p id="name"></p></p></li>
+        <li><p>Email: <p id="email"></p></p></li>
+      </ul>
+
+      <button value="posts">search employee post</button>
+
+      <table>
+        <th>
+          <td>Id Post</td>
+          <td>Title</td>
+          <td>body</td>
+        </th>
+      </table>
+    </main>
+
+    <script src="../dist/main.js"></script>
   </body>
 </html>
