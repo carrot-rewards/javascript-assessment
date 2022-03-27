@@ -50,7 +50,7 @@ async function get_post() {
     var z1 = document.createTextNode(element.title);
     var a = document.createElement("td");
     var a1 = document.createTextNode(element.body);
-
+    
     y.appendChild(y1);
     z.appendChild(z1);
     a.appendChild(a1);
@@ -58,8 +58,8 @@ async function get_post() {
     row.appendChild(y);
     row.appendChild(z);
     row.appendChild(a);
-    
 
     table.appendChild(row);
+
   });
 }
